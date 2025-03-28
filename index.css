@@ -1,19 +1,29 @@
+/* //Las etiquetas no llevan punto */
 body {
 background: black;
 }
 
+
+
+/* //Nombre del div */
 .postal {
 background-color: white; height: 750px;  width: 400px;
 }
 
-.fa-html5 {
+/* Div Logo Header se divide en izquierda y derecha logo y tres puntos */
+.header  {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
+.logo {
     font-size: 50px;
 }
 
+/* //EL div header se divide en logo y parrafos */
 .left {
+    display: flex;
 
 }
 
-.right {
-    
-}
