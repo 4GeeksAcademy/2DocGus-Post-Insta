@@ -10,7 +10,7 @@ body {
 }
 
 .postal {
-background-color: white; width: 525px; height: 750px;  
+background-color: white; width: 525px; height: 700px;  
 }
 
 .header {
@@ -100,4 +100,13 @@ h3, h5 {
 
 .parra1, .parra2 {
     font-size: big;
+}
+
+.barra4 {
+    display: ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
