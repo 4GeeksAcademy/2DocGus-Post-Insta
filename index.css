@@ -3,8 +3,6 @@ body {
 background: black;
 }
 
-
-
 /* //Nombre del div */
 .postal {
 background-color: white; height: 750px;  width: 400px;
@@ -16,14 +14,29 @@ background-color: white; height: 750px;  width: 400px;
     justify-content: space-between;
 }
 
-/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
-.logo {
-    font-size: 50px;
-}
-
 /* //EL div header se divide en logo y parrafos */
-.left {
+.headerIzquierda {
     display: flex;
 
 }
 
+/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
+.logoLeft {
+    font-size: 70px;
+}
+
+/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
+.logoDerecha {
+    font-size: 70px;
+}
+
+/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
+.headerDerecha {
+    font-size: 70px;
+}
+
+.imagenSabana img {
+    width: 400px; /* Ajusta el tamaño que desees */
+    height: 300px; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Opcional: Recorta si es necesario para encajar en el tamaño especificado */
+}
