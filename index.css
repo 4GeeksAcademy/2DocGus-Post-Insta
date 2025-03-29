@@ -2,64 +2,102 @@
 body {
     background-color: black;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center; 
+    align-items: center; 
     min-height: 100vh; /* Asegura que ocupe al menos el 100% de la altura de la ventana */
-    margin: 0; /* Elimina márgenes por defecto */
+    margin: 0;
 
 }
 
 .postal {
-background-color: white; width: 400px; height: 750px;  
+background-color: white; width: 525px; height: 750px;  
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0px; /* Espacio debajo del header */
-
+    margin-bottom: 0px;
 }
 
-/* Para asegurar que los elementos estén alineados en una fila */
 .headerIzquierda {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: flex-start; /* Alinea al principio */
+    align-items: center;
+    justify-content: flex-start;
 }
 
-/* Logo izquierdo */
 .logoLeft {
     font-size: 40px;
-    margin-right: 20px; /* Agrega espacio a la derecha de logoLeft */
-    margin-left: 20px; /* Agrega espacio a la derecha de logoLeft */
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-/* Logo derecho */
 .logoRight {
-    /* Si deseas más espacio entre los elementos, agrega margin-left o utiliza flexbox */
     display: flex;
     flex-direction: column; /* Para que HTML5 y DocGus estén uno debajo del otro */
-   
 }
 
-/* Asegúrate de que no haya margen extra alrededor de los encabezados */
 h3, h5 {
-    margin: 0; /* Elimina cualquier margen por defecto */
+    margin: 0; /* Elimina margen por defecto para que esten mas cerca */
 }
 
-/* Si necesitas más espacio en el headerDerecha (icono de los tres puntos) */
 .headerDerecha {
-    margin-left: auto; /* Empuja el icono hacia la derecha */
+    margin-left: auto; 
 }
 
 .logoDos {
-    font-size: 50px;
-    margin-right: 30px; /* Ajusta el valor de 20px según el espacio que desees */
+    font-size: 35px;
+    margin-right: 30px; 
 }
 
 .imagenSabana img {
-    width: 400px; /* Ajusta el tamaño que desees */
-    height: 300px; /* Mantiene la proporción de la imagen */
-    object-fit: cover; /* Opcional: Recorta si es necesario para encajar en el tamaño especificado */
+    width: 525px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.barra3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.barraIzq {
+    display:flex
+}
+
+.icono1 {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.icono2 {
+    margin-top: 10px;
+    font-size: 35px;
+    margin-right:5px;
+    margin-left: 5px;
+}
+
+.icono3 {
+    margin-top: 10px;
+    font-size: 35px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.barraDer {
+    display:flex
+}
+
+.icono4 {
+    margin-top: 10px;
+    font-size: 35px;
+    margin-right: 30px; 
+}
+
+.parra1, .parra2 {
+    font-size: big;
 }
