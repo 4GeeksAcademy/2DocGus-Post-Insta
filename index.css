@@ -1,38 +1,61 @@
 /* //Las etiquetas no llevan punto */
 body {
-background: black;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que ocupe al menos el 100% de la altura de la ventana */
+    margin: 0; /* Elimina márgenes por defecto */
+
 }
 
-/* //Nombre del div */
 .postal {
-background-color: white; height: 750px;  width: 400px;
+background-color: white; width: 400px; height: 750px;  
 }
 
-/* Div Logo Header se divide en izquierda y derecha logo y tres puntos */
-.header  {
+.header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px; /* Espacio debajo del header */
+
 }
 
-/* //EL div header se divide en logo y parrafos */
+/* Para asegurar que los elementos estén alineados en una fila */
 .headerIzquierda {
     display: flex;
-
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start; /* Alinea al principio */
 }
 
-/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
+/* Logo izquierdo */
 .logoLeft {
-    font-size: 70px;
+    font-size: 40px;
+    margin-right: 20px; /* Agrega espacio a la derecha de logoLeft */
+    margin-left: 20px; /* Agrega espacio a la derecha de logoLeft */
 }
 
-/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
-.logoDerecha {
-    font-size: 70px;
+/* Logo derecho */
+.logoRight {
+    /* Si deseas más espacio entre los elementos, agrega margin-left o utiliza flexbox */
+    display: flex;
+    flex-direction: column; /* Para que HTML5 y DocGus estén uno debajo del otro */
+   
 }
 
-/* //Al importar de fontawesome vienen dos nombres incluidos solo se agrega una clase logo */
+/* Asegúrate de que no haya margen extra alrededor de los encabezados */
+h3, h5 {
+    margin: 0; /* Elimina cualquier margen por defecto */
+}
+
+/* Si necesitas más espacio en el headerDerecha (icono de los tres puntos) */
 .headerDerecha {
-    font-size: 70px;
+    margin-left: auto; /* Empuja el icono hacia la derecha */
+}
+
+.logoDos {
+    font-size: 50px;
+    margin-right: 30px; /* Ajusta el valor de 20px según el espacio que desees */
 }
 
 .imagenSabana img {
